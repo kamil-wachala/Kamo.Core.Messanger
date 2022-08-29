@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kamo.Core.Messanger", "src\Kamo.Core.Messanger\Kamo.Core.Messanger.csproj", "{9DE0F693-D714-47D2-8748-3B5F4BFE318F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamo.Core.Messanger.Tests", "test\Kamo.Core.Messanger.Tests\Kamo.Core.Messanger.Tests.csproj", "{1305D981-CC58-4A24-A245-2955CDA86E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamo.Core.Messanger.WinUiTests", "test\Kamo.Core.Messanger.WinUiTests\Kamo.Core.Messanger.WinUiTests.csproj", "{BA3EBD30-5513-42A1-914D-2A4F084C3252}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DE0F693-D714-47D2-8748-3B5F4BFE318F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE0F693-D714-47D2-8748-3B5F4BFE318F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE0F693-D714-47D2-8748-3B5F4BFE318F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE0F693-D714-47D2-8748-3B5F4BFE318F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1305D981-CC58-4A24-A245-2955CDA86E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1305D981-CC58-4A24-A245-2955CDA86E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1305D981-CC58-4A24-A245-2955CDA86E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1305D981-CC58-4A24-A245-2955CDA86E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3EBD30-5513-42A1-914D-2A4F084C3252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3EBD30-5513-42A1-914D-2A4F084C3252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3EBD30-5513-42A1-914D-2A4F084C3252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3EBD30-5513-42A1-914D-2A4F084C3252}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFA27634-C6F5-4723-B271-10D92C4B03C2}
+	EndGlobalSection
+EndGlobal
